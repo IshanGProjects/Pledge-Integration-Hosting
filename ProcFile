@@ -1,1 +1,1 @@
-web: pledgeAPI:app --log-file -
+web: gunicorn pledgeAPI.wsgi --log-file
